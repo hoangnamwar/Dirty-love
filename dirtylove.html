@@ -1,0 +1,33 @@
+<!-- N:/web/Trial/iloveyou/iloveyou.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dirty love</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+   <body>
+      <div>
+            <h1>Do you love me ???</h1>
+            <button id = "first-button"> Yes, I fucking love you so much!!</button>
+            <button id = "second-button" onmouseover="changeBtn(this)" > Hell no, what are you thinking??</button>  
+            <script>
+               function changeBtn(btn)
+               {
+                  var x = Math.floor(Math.random() * 500) + 1;
+                  var y = Math.floor(Math.random() * 500) + 1;
+                  btn.style.top = x + 'px';
+                  btn.style.left = y + 'px';
+               }
+            </script>
+      </div>
+      <div id = "footer">
+            <h3> Powered by Hoangnam </h3>
+      </div>
+   </body>
+</html>
